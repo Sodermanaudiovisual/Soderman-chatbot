@@ -130,7 +130,7 @@ app.get('/', (_req, res) => {
   const html = [
     '<!doctype html><html lang="en"><meta charset="utf-8" />',
     '<meta name="viewport" content="width=device-width, initial-scale=1" />',
-    '<title>SODERBOTbot</title>',
+    '<title>SODERBOT</title>',
     '<style>',
     ':root { --brand:#0ea5e9; --bg:#0F1115; --fg:#E8EAF0; --muted:#9AA1AC; }',
     'body { margin:0; font:14px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:#0b0c10; color:var(--fg); }',
@@ -150,7 +150,7 @@ app.get('/', (_req, res) => {
     '.handoff { background:#f59e0b; color:#111; border:none; padding:8px 10px; border-radius:10px; margin:6px 12px 12px auto; display:inline-block; }',
     '</style><body>',
     '<div id="chat-launcher" title="SODERBOT 💬">💬</div>',
-    '<div id="panel"><header><div class="dot"></div><h1>SODERBOTSODERBOT</h1></header>',
+    '<div id="panel"><header><div class="dot"></div><h1>SODERBOT</h1></header>',
     '<div id="log"></div>',
     '<form id="f"><input id="q" type="text" placeholder="Ask a question…" autocomplete="off" /><button>Send</button></form>',
     '</div>',
